@@ -49,13 +49,13 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "Athletes_CSV_1",
+						"referenceName": "cp_data_act_ingest_src_Athletes",
 						"type": "DatasetReference"
 					}
 				],
 				"outputs": [
 					{
-						"referenceName": "copy_data_act_source_data_ingest",
+						"referenceName": "cp_data_act_ingest_sink_Athletes",
 						"type": "DatasetReference"
 					}
 				]
