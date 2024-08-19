@@ -1,5 +1,5 @@
 {
-	"name": "copy_data_act_source_data_ingest",
+	"name": "cp_data_act_ingest_sink_Athletes",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "AzureDataLakeStorage1",
