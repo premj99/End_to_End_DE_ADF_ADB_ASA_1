@@ -59,6 +59,45 @@
 						"type": "DatasetReference"
 					}
 				]
+			},
+			{
+				"name": "copy-data-Coaches_ingestion-1",
+				"type": "Copy",
+				"dependsOn": [
+					{
+						"activity": "copy-data-Athlets_ingestion-1",
+						"dependencyConditions": [
+							"Succeeded"
+						]
+					}
+				],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"source": {
+						"type": "DelimitedTextSource",
+						"storeSettings": {
+							"type": "HttpReadSettings",
+							"requestMethod": "GET"
+						},
+						"formatSettings": {
+							"type": "DelimitedTextReadSettings"
+						}
+					},
+					"enableStaging": false
+				},
+				"inputs": [
+					{
+						"referenceName": "cp_data_act_ingest_src_Coaches",
+						"type": "DatasetReference"
+					}
+				]
 			}
 		],
 		"annotations": []
