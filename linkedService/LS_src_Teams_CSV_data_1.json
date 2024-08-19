@@ -1,0 +1,13 @@
+{
+	"name": "LS_src_Teams_CSV_data_1",
+	"properties": {
+		"description": " Ingest Source data using HTTPS",
+		"annotations": [],
+		"type": "HttpServer",
+		"typeProperties": {
+			"url": "https://raw.githubusercontent.com/premj99/Olympic-Data-Analysis/main/Data/Teams.csv",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}
