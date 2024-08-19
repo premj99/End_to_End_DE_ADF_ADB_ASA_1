@@ -2,7 +2,7 @@
 	"name": "cp_data_act_ingest_sink_Athletes",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "AzureDataLakeStorage1",
+			"referenceName": "AZ_DL_Store_Gen2_src_1",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
