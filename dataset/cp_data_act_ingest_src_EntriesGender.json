@@ -1,0 +1,21 @@
+{
+	"name": "cp_data_act_ingest_src_EntriesGender",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_src_EntriesGender_CSV_data_1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}

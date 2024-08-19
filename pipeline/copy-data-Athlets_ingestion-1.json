@@ -49,7 +49,7 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "cp_data_act_ingest_src_Athletes",
+						"referenceName": "cp_data_act_ingest_src_Coaches",
 						"type": "DatasetReference"
 					}
 				],
