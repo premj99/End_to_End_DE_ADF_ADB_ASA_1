@@ -1,5 +1,5 @@
 {
-	"name": "Athletes_CSV_1",
+	"name": "cp_data_act_ingest_src_Athletes",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "LS_Athelets_CSV_data_1",
