@@ -1,0 +1,12 @@
+{
+	"name": "LS_Athelets_CSV_data_1",
+	"properties": {
+		"annotations": [],
+		"type": "HttpServer",
+		"typeProperties": {
+			"url": "https://github.com/premj99/Olympic-Data-Analysis/main/Data/Athletes.csv",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}
