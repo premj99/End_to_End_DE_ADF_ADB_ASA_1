@@ -1,0 +1,13 @@
+{
+	"name": "AZ_DL_Store_Gen2_src_1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"description": "Ingest Source data using HTTPS and load to the AZ DL Gen2 storage",
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://pssourcedeltalake2.dfs.core.windows.net/",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDA5M0M0QkEzLTdGRjYtNDRDNy1CQTNELTNBMjBDMkJEOUJGOF9hMDNlZjA0MS1mN2ViLTQ2MDMtOGM3OS0zOTJiYTFmODEyMjUiDQp9"
+		}
+	}
+}
