@@ -5,6 +5,9 @@
 			"referenceName": "AZ_DL_Store_Gen2_src_1",
 			"type": "LinkedServiceReference"
 		},
+		"folder": {
+			"name": "cp_data_act_ingest_sink_DS"
+		},
 		"annotations": [],
 		"type": "DelimitedText",
 		"typeProperties": {

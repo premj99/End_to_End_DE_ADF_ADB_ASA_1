@@ -5,6 +5,9 @@
 			"referenceName": "LS_Athelets_CSV_data_1",
 			"type": "LinkedServiceReference"
 		},
+		"folder": {
+			"name": "cp_data_act_ingest_src_DS"
+		},
 		"annotations": [],
 		"type": "DelimitedText",
 		"typeProperties": {
